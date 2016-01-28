@@ -12,6 +12,8 @@
 		DB8766541C5A802000066545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8766521C5A802000066545 /* Main.storyboard */; };
 		DB8766561C5A802000066545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8766551C5A802000066545 /* Assets.xcassets */; };
 		DB8766591C5A802000066545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8766571C5A802000066545 /* LaunchScreen.storyboard */; };
+		DB8766611C5A88B500066545 /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8766601C5A88B500066545 /* Dragon.swift */; };
+		DB8766831C5AA12E00066545 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8766821C5AA12E00066545 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DB8766551C5A802000066545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8766581C5A802000066545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB87665A1C5A802000066545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8766601C5A88B500066545 /* Dragon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		DB8766821C5AA12E00066545 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				DB87664E1C5A802000066545 /* AppDelegate.swift */,
+				DB8766601C5A88B500066545 /* Dragon.swift */,
 				DB8766501C5A802000066545 /* ViewController.swift */,
+				DB8766821C5AA12E00066545 /* DetailViewController.swift */,
 				DB8766521C5A802000066545 /* Main.storyboard */,
 				DB8766551C5A802000066545 /* Assets.xcassets */,
 				DB8766571C5A802000066545 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				DB8766511C5A802000066545 /* ViewController.swift in Sources */,
 				DB87664F1C5A802000066545 /* AppDelegate.swift in Sources */,
+				DB8766611C5A88B500066545 /* Dragon.swift in Sources */,
+				DB8766831C5AA12E00066545 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				DB87665F1C5A802000066545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
